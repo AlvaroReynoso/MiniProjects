@@ -11,24 +11,28 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right,rgb(162, 117, 190),rgb(108, 121, 237));
+    background: linear-gradient(to right,rgb(232, 130, 154),rgb(59, 175, 229));
 }
 
 .form-container {
     background-color: #fff;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 320px;
     text-align: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+h1:hover{
+    color: rgb(166, 162, 223);
+}
 form {
     display: flex;
     flex-direction: column;
@@ -59,21 +63,23 @@ input:focus {
     width: 100%;
     text-align: center;
     margin: auto;
-    color: red;
+    color: rgb(235, 64, 115);
     padding-top: 20px; 
 }
 
 button {
     padding: 15px;
+    margin-top: 25px;
     border: none;
     border-radius: 25px;
     font-size: 16px;
     color: white;
-    background: linear-gradient(90deg, #7f00ff, #e100ff);
+    background: linear-gradient(90deg, rgb(232, 130, 154),rgb(59, 175, 229));
     cursor: pointer;
     transition: background 0.3s ease;
+
 }
 
 button:hover {
-    background: linear-gradient(90deg, #6a00e0, #c200e0);
+    background: linear-gradient(90deg, rgb(217, 92, 121),rgb(23, 164, 229));
 }
